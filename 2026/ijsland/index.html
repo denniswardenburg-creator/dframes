@@ -18,7 +18,10 @@
     <a class="brand" href="../../index.html" aria-label="DFRAMES.NL home">
       <img src="../../assets/dframes-logo-clean.png" alt="DFRAMES.NL" draggable="false">
     </a>
-    <nav class="year-nav" aria-label="Fotocollecties">
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="collections-menu" aria-label="Collecties openen" data-menu-toggle>
+      <span aria-hidden="true"></span>
+    </button>
+    <nav class="year-nav" id="collections-menu" aria-label="Fotocollecties">
       <div class="nav-kicker">Collecties</div>
       <ul class="nav-years" data-nav-years></ul>
     </nav>

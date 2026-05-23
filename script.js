@@ -90,6 +90,31 @@
     });
   };
 
+  const setupMobileMenu = () => {
+    document.querySelectorAll("[data-menu-toggle]").forEach((button) => {
+      const sidebar = button.closest(".site-sidebar");
+      if (!sidebar) return;
+
+      const setOpen = (isOpen) => {
+        sidebar.classList.toggle("is-menu-open", isOpen);
+        button.setAttribute("aria-expanded", String(isOpen));
+        button.setAttribute("aria-label", isOpen ? "Collecties sluiten" : "Collecties openen");
+      };
+
+      button.addEventListener("click", () => {
+        setOpen(!sidebar.classList.contains("is-menu-open"));
+      });
+
+      sidebar.addEventListener("click", (event) => {
+        if (event.target.closest(".year-nav a")) setOpen(false);
+      });
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") setOpen(false);
+      });
+    });
+  };
+
   const renderHomeCarousel = () => {
     const carousel = document.querySelector("[data-home-carousel]");
     if (!carousel) return;
@@ -313,6 +338,7 @@
   renderNavigation();
   renderCurrentYear();
   renderSeries();
+  setupMobileMenu();
   renderHomeCarousel();
   renderGallery();
   protectMedia();
