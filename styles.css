@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   color-scheme: light;
   --ink: #22211f;
   --muted: #706d66;
@@ -184,6 +184,14 @@ button {
 .home-logo img {
   width: 100%;
   height: auto;
+}
+
+.home-tagline {
+  max-width: 620px;
+  margin: 18px auto 0;
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.55;
 }
 
 .lead {
@@ -697,7 +705,19 @@ button {
   }
 
   body[data-page="home"] .home-hero {
+    display: grid;
+    padding: 10px 0 18px;
+    border-bottom: 0;
+  }
+
+  body[data-page="home"] .home-logo {
     display: none;
+  }
+
+  body[data-page="home"] .home-tagline {
+    max-width: 34rem;
+    margin-top: 0;
+    font-size: 1rem;
   }
 
   body[data-page="home"] .home-carousel-section {
