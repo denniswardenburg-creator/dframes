@@ -6,7 +6,7 @@ window.DFRAMES_DATA = {
         {
           title: "IJsland",
           slug: "ijsland",
-          url: "2026/ijsland/index.html?v=20260524-2",
+          url: "2026/ijsland/index.html?v=20260524-3",
           summary: "Ruige kusten, lavavelden, ijs en wind.",
           photos: [
             {
@@ -69,7 +69,7 @@ window.DFRAMES_DATA = {
         {
           title: "Koningssteen",
           slug: "koningssteen",
-          url: "2026/Koningssteen/index.html?v=20260524-2",
+          url: "2026/Koningssteen/index.html?v=20260524-3",
           summary: "Natuur langs water en open landschap.",
           photos: [
             {
@@ -92,7 +92,7 @@ window.DFRAMES_DATA = {
         {
           title: "Maasduinen",
           slug: "maasduinen",
-          url: "2026/Maasduinen/index.html?v=20260524-2",
+          url: "2026/Maasduinen/index.html?v=20260524-3",
           summary: "Eekhoorns en roofvogels in het groen.",
           photos: [
             {
@@ -125,7 +125,7 @@ window.DFRAMES_DATA = {
         {
           title: "Burgers' Zoo",
           slug: "burgers-zoo",
-          url: "2025/Burgers%20Zoo/index.html?v=20260524-2",
+          url: "2025/Burgers%20Zoo/index.html?v=20260524-3",
           summary: "Vlinders tussen tropisch groen.",
           photos: [
             {
@@ -153,7 +153,7 @@ window.DFRAMES_DATA = {
         {
           title: "Reigersbroek",
           slug: "reigersbroek",
-          url: "2025/Reigersbroek/index.html?v=20260524-2",
+          url: "2025/Reigersbroek/index.html?v=20260524-3",
           summary: "Vogels tussen riet, water en takken.",
           photos: [
             {
@@ -176,7 +176,7 @@ window.DFRAMES_DATA = {
         {
           title: "Texel",
           slug: "texel",
-          url: "2025/Texel/index.html?v=20260524-2",
+          url: "2025/Texel/index.html?v=20260524-3",
           summary: "Eilandvogels tussen bos, water en groen.",
           photos: [
             {
@@ -209,7 +209,7 @@ window.DFRAMES_DATA = {
         {
           title: "Texel",
           slug: "texel",
-          url: "2024/Texel/index.html?v=20260524-2",
+          url: "2024/Texel/index.html?v=20260524-3",
           summary: "Vogels langs water, duin en open landschap.",
           photos: [
             {
@@ -256,7 +256,39 @@ window.DFRAMES_DATA = {
         }
       ]
     },
-    { year: 2023, subjects: [] },
+    {
+      year: 2023,
+      subjects: [
+        {
+          title: "Engeland",
+          slug: "engeland",
+          url: "2023/Engeland/index.html?v=20260524-3",
+          summary: "Dorpjes, kliffen en ruig Engels landschap.",
+          photos: [
+            {
+              src: "assets/photos/2023/engeland/engels_dorp.jpg",
+              title: "Engels dorp",
+              alt: "Historische huizen en rieten daken in een Engels dorp"
+            },
+            {
+              src: "assets/photos/2023/engeland/kust_bij_zonsondergang.jpg",
+              title: "Kust bij zonsondergang",
+              alt: "Rotsachtige Engelse kust bij zonsondergang"
+            },
+            {
+              src: "assets/photos/2023/engeland/klifkust.jpg",
+              title: "Klifkust",
+              alt: "Engelse klifkust met strand, rotsen en golven"
+            },
+            {
+              src: "assets/photos/2023/engeland/heuvels_onder_wolken.jpg",
+              title: "Heuvels onder wolken",
+              alt: "Groene Engelse heuvels en bos onder donkere wolken"
+            }
+          ]
+        }
+      ]
+    },
     { year: 2022, subjects: [] },
     { year: 2021, subjects: [] },
     { year: 2020, subjects: [] },
@@ -266,7 +298,7 @@ window.DFRAMES_DATA = {
         {
           title: "Faroer",
           slug: "faroer",
-          url: "2019/Faroer/index.html?v=20260524-2",
+          url: "2019/Faroer/index.html?v=20260524-3",
           summary: "Groene kliffen, grasdaken en ruige eilandkusten.",
           photos: [
             {

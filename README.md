@@ -1,6 +1,6 @@
 # DFRAMES.NL fotowebsite
 
-De website staat klaar met een zijmenu voor 2018 tot en met 2026 en fotoseries voor onder andere `2026 / IJsland`, `2026 / Koningssteen`, `2026 / Maasduinen`, `2025 / Burgers' Zoo`, `2025 / Reigersbroek`, `2025 / Texel`, `2024 / Texel` en `2019 / Faroer`.
+De website staat klaar met een zijmenu voor 2018 tot en met 2026 en fotoseries voor onder andere `2026 / IJsland`, `2026 / Koningssteen`, `2026 / Maasduinen`, `2025 / Burgers' Zoo`, `2025 / Reigersbroek`, `2025 / Texel`, `2024 / Texel`, `2023 / Engeland` en `2019 / Faroer`.
 
 De getoonde foto's staan als webvriendelijke kopieen in `assets/photos/`. De grote originele bestanden in de jaargangen blijven ongemoeid.
 
