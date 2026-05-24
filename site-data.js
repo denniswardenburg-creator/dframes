@@ -11,7 +11,7 @@ window.DFRAMES_DATA = {
           photos: [
             {
               src: "assets/photos/2026/ijsland/budirkirkja.jpg",
-              title: "Budirkirkja",
+              title: "Búðakirkja",
               alt: "Zwarte kerk in het IJslandse landschap"
             },
             {
@@ -26,17 +26,17 @@ window.DFRAMES_DATA = {
             },
             {
               src: "assets/photos/2026/ijsland/thingvellir.jpg",
-              title: "Thingvellir",
+              title: "Þingvellir",
               alt: "Uitzicht over Thingvellir met rivier, kerk en bergen in IJsland"
             },
             {
               src: "assets/photos/2026/ijsland/glacier_lagoon.jpg",
-              title: "Gletsjerlagune",
+              title: "Jökulsárlón",
               alt: "IJsbergen in een gletsjerlagune met besneeuwde bergen en dramatische wolken in IJsland"
             },
             {
               src: "assets/photos/2026/ijsland/waterfall_gorge.jpg",
-              title: "Waterval in de kloof",
+              title: "Gljúfrabúi",
               alt: "Waterval vanuit een met mos begroeide kloof in IJsland"
             },
             {
@@ -51,7 +51,7 @@ window.DFRAMES_DATA = {
             },
             {
               src: "assets/photos/2026/ijsland/puffin_1.jpg",
-              title: "Puffin portret",
+              title: "Puffin",
               alt: "Portret van een puffin in IJsland"
             },
             {
@@ -97,22 +97,22 @@ window.DFRAMES_DATA = {
           photos: [
             {
               src: "assets/photos/2026/maasduinen/eekhoorn_sprong.jpg",
-              title: "Eekhoorn sprong",
+              title: "Rode eekhoorn",
               alt: "Eekhoorn springend langs water in de Maasduinen"
             },
             {
               src: "assets/photos/2026/maasduinen/eekhoorn_portret.jpg",
-              title: "Eekhoorn portret",
+              title: "Rode eekhoorn",
               alt: "Portret van een eekhoorn tussen mos en takken in de Maasduinen"
             },
             {
               src: "assets/photos/2026/maasduinen/eekhoorn_tak.jpg",
-              title: "Eekhoorn op tak",
+              title: "Rode eekhoorn",
               alt: "Eekhoorn zittend op een tak in de Maasduinen"
             },
             {
               src: "assets/photos/2026/maasduinen/sperwer_portret.jpg",
-              title: "Sperwer portret",
+              title: "Sperwer",
               alt: "Close-up portret van een sperwer in de Maasduinen"
             }
           ]
@@ -130,7 +130,7 @@ window.DFRAMES_DATA = {
           photos: [
             {
               src: "assets/photos/2025/burgers-zoo/vlinder_op_blad.jpg",
-              title: "Vlinder op blad",
+              title: "Heliconius-vlinder",
               alt: "Donkere vlinder met rode vleugelvlekken op een groen blad in Burgers' Zoo"
             },
             {
@@ -145,7 +145,7 @@ window.DFRAMES_DATA = {
             },
             {
               src: "assets/photos/2025/burgers-zoo/hagedis_op_blad.jpg",
-              title: "Hagedis op blad",
+              title: "Groene leguaan",
               alt: "Groene hagedis op een blad in Burgers' Zoo"
             }
           ]
@@ -191,7 +191,7 @@ window.DFRAMES_DATA = {
             },
             {
               src: "assets/photos/2025/texel/reiger.jpg",
-              title: "Reiger",
+              title: "Blauwe reiger",
               alt: "Reiger staand in ondiep water op Texel"
             },
             {
