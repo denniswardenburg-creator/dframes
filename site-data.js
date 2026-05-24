@@ -1,4 +1,4 @@
-﻿window.DFRAMES_DATA = {
+window.DFRAMES_DATA = {
   years: [
     {
       year: 2026,
@@ -142,6 +142,11 @@
               src: "assets/photos/2025/burgers-zoo/uilvlinder.jpg",
               title: "Uilvlinder",
               alt: "Uilvlinder met oogtekening op een groen blad in Burgers' Zoo"
+            },
+            {
+              src: "assets/photos/2025/burgers-zoo/hagedis_op_blad.jpg",
+              title: "Hagedis op blad",
+              alt: "Groene hagedis op een blad in Burgers' Zoo"
             }
           ]
         },
@@ -218,6 +223,16 @@
               alt: "Blauwe reiger tussen het groen op Texel"
             },
             {
+              src: "assets/photos/2024/texel/buizerd.jpg",
+              title: "Buizerd",
+              alt: "Buizerd op stro tegen een blauwe achtergrond op Texel"
+            },
+            {
+              src: "assets/photos/2024/texel/fazant.jpg",
+              title: "Fazant",
+              alt: "Fazanten tussen het duingras op Texel"
+            },
+            {
               src: "assets/photos/2024/texel/graspieper.jpg",
               title: "Graspieper",
               alt: "Graspieper zingend op een houten paal op Texel"
@@ -245,7 +260,34 @@
     { year: 2022, subjects: [] },
     { year: 2021, subjects: [] },
     { year: 2020, subjects: [] },
-    { year: 2019, subjects: [] },
+    {
+      year: 2019,
+      subjects: [
+        {
+          title: "Faroer",
+          slug: "faroer",
+          url: "2019/Faroer/index.html",
+          summary: "Groene kliffen, grasdaken en ruige eilandkusten.",
+          photos: [
+            {
+              src: "assets/photos/2019/faroer/waterval_bij_gasadalur.jpg",
+              title: "Waterval bij Gasadalur",
+              alt: "Waterval langs groene kliffen bij Gasadalur op de Faroer"
+            },
+            {
+              src: "assets/photos/2019/faroer/saksun.jpg",
+              title: "Saksun",
+              alt: "Grasdaken en bergen rond Saksun op de Faroer"
+            },
+            {
+              src: "assets/photos/2019/faroer/tindholmur.jpg",
+              title: "Tindholmur",
+              alt: "Uitzicht over water richting Tindholmur op de Faroer"
+            }
+          ]
+        }
+      ]
+    },
     { year: 2018, subjects: [] }
   ]
 };
