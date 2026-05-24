@@ -71,6 +71,8 @@ button {
 
 .site-sidebar {
   position: fixed;
+  display: flex;
+  flex-direction: column;
   inset: 0 auto 0 0;
   z-index: 20;
   width: 272px;
@@ -82,10 +84,37 @@ button {
   backdrop-filter: blur(18px);
 }
 
+.top-contact {
+  align-self: flex-start;
+  display: inline-flex;
+  min-height: 34px;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 12px;
+  border: 1px solid rgba(34, 33, 31, 0.12);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.58);
+  color: var(--ink);
+  font-size: 0.76rem;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  transition: background 180ms ease, border-color 180ms ease, color 180ms ease, transform 180ms ease;
+}
+
+.top-contact:hover,
+.top-contact:focus-visible {
+  border-color: rgba(96, 127, 115, 0.36);
+  background: var(--accent-soft);
+  color: #1b3c32;
+  outline: none;
+  transform: translateY(-1px);
+}
+
 .brand {
   display: block;
   width: 132px;
-  margin: 0 auto;
+  margin: 12px auto 0;
 }
 
 .brand img {
@@ -98,7 +127,11 @@ button {
 }
 
 .year-nav {
+  flex: 1 1 auto;
+  min-height: 0;
   margin-top: 28px;
+  overflow-y: auto;
+  padding-right: 2px;
 }
 
 .nav-kicker,
@@ -161,6 +194,41 @@ button {
   color: #1b3c32;
   outline: none;
   transform: translateX(2px);
+}
+
+.sidebar-contact {
+  display: none;
+  gap: 3px;
+  margin-top: 22px;
+  padding: 13px 14px;
+  border: 1px solid rgba(34, 33, 31, 0.12);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.58);
+  color: var(--ink);
+  box-shadow: 0 12px 28px rgba(34, 33, 31, 0.06);
+  transition: background 180ms ease, border-color 180ms ease, transform 180ms ease;
+}
+
+.sidebar-contact span {
+  color: var(--warm);
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.sidebar-contact strong {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.sidebar-contact:hover,
+.sidebar-contact:focus-visible {
+  border-color: rgba(96, 127, 115, 0.36);
+  background: var(--accent-soft);
+  color: #1b3c32;
+  outline: none;
+  transform: translateY(-1px);
 }
 
 .site-main {
@@ -585,10 +653,20 @@ button {
     border-bottom: 1px solid rgba(34, 33, 31, 0.1);
   }
 
+  .top-contact {
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    min-height: 42px;
+    padding: 0 11px;
+    font-size: 0.7rem;
+  }
+
   .brand {
     grid-column: 2;
     width: 104px;
     max-width: 42vw;
+    margin: 0 auto;
   }
 
   .menu-toggle {
@@ -658,6 +736,10 @@ button {
   }
 
   .year-nav {
+    flex: none;
+    min-height: auto;
+    overflow-y: visible;
+    padding-right: 0;
     display: none;
     grid-column: 1 / -1;
     width: 100%;
@@ -693,6 +775,16 @@ button {
     line-height: 1.22;
     white-space: normal;
     overflow-wrap: break-word;
+  }
+
+  .sidebar-contact {
+    display: none;
+    grid-column: 1 / -1;
+    margin-top: 12px;
+  }
+
+  .site-sidebar.is-menu-open .sidebar-contact {
+    display: grid;
   }
 
   .site-main {
